@@ -192,6 +192,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1697607512
 =======
 --- !u!1001 &42944799
@@ -3259,23 +3260,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1260301051
+=======
+--- !u!1 &97520896
+>>>>>>> parent of 0f94b71... Test
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1260301052}
   - component: {fileID: 1260301055}
   - component: {fileID: 1260301054}
   - component: {fileID: 1260301053}
   m_Layer: 0
   m_Name: SteelWall001
+=======
+  - component: {fileID: 97520900}
+  - component: {fileID: 97520899}
+  - component: {fileID: 97520898}
+  - component: {fileID: 97520897}
+  m_Layer: 0
+  m_Name: Floor001
+>>>>>>> parent of 0f94b71... Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1260301052
 Transform:
   m_ObjectHideFlags: 0
@@ -3290,11 +3304,18 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1260301053
+=======
+--- !u!23 &97520897
+>>>>>>> parent of 0f94b71... Test
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1260301051}
+=======
+  m_GameObject: {fileID: 97520896}
+>>>>>>> parent of 0f94b71... Test
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3302,7 +3323,11 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 5a73a7ed7ff5ac846be02ae4d15cc51b, type: 2}
+=======
+  - {fileID: 2100000, guid: 0d1d7b8686de3224289fff62cca9377c, type: 2}
+>>>>>>> parent of 0f94b71... Test
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3321,41 +3346,84 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!65 &1260301054
+=======
+--- !u!65 &97520898
+>>>>>>> parent of 0f94b71... Test
 BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1260301051}
+=======
+  m_GameObject: {fileID: 97520896}
+>>>>>>> parent of 0f94b71... Test
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!33 &1260301055
+=======
+--- !u!33 &97520899
+>>>>>>> parent of 0f94b71... Test
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1260301051}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1301965303
+=======
+  m_GameObject: {fileID: 97520896}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &97520900
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 97520896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 200, y: 1, z: 200}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &255097911
+>>>>>>> parent of 0f94b71... Test
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1301965305}
   - component: {fileID: 1301965304}
   m_Layer: 0
   m_Name: GunMechanics
   m_TagString: Untagged
+=======
+  - component: {fileID: 255097916}
+  - component: {fileID: 255097915}
+  - component: {fileID: 255097914}
+  - component: {fileID: 255097913}
+  - component: {fileID: 255097912}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> parent of 0f94b71... Test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!114 &1301965304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3371,10 +3439,136 @@ MonoBehaviour:
   TargetDistance: 0
   AllowedRange: 15
 --- !u!4 &1301965305
+=======
+--- !u!81 &255097912
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 255097911}
+  m_Enabled: 1
+--- !u!124 &255097913
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 255097911}
+  m_Enabled: 1
+--- !u!92 &255097914
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 255097911}
+  m_Enabled: 1
+--- !u!20 &255097915
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 255097911}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &255097916
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 255097911}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0.51, y: 21.52, z: -26.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+--- !u!1 &1025391037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1025391039}
+  - component: {fileID: 1025391038}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1025391038
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1025391037}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1025391039
+>>>>>>> parent of 0f94b71... Test
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1301965303}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3385,12 +3579,24 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1487553767
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+  m_GameObject: {fileID: 1025391037}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1070925572
+>>>>>>> parent of 0f94b71... Test
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 2041471774}
   - component: {fileID: 2041471773}
@@ -3407,11 +3613,21 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy (2)
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+  - component: {fileID: 1070925576}
+  - component: {fileID: 1070925575}
+  - component: {fileID: 1070925574}
+  - component: {fileID: 1070925573}
+  - component: {fileID: 1070925577}
+  m_Layer: 0
+  m_Name: Crate002
+>>>>>>> parent of 0f94b71... Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!23 &2041471771
 =======
@@ -3429,15 +3645,22 @@ MonoBehaviour:
   EnemyHealth: 30
 --- !u!23 &1487553769
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+--- !u!23 &1070925573
+>>>>>>> parent of 0f94b71... Test
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2041471770}
 =======
   m_GameObject: {fileID: 1487553767}
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+  m_GameObject: {fileID: 1070925572}
+>>>>>>> parent of 0f94b71... Test
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3446,10 +3669,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 0e1c61d6d153f9649be52da5dd86c930, type: 2}
 =======
   - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+  - {fileID: 2100000, guid: 3c3dc0ac7ab848e419b30cbd2543adb9, type: 2}
+>>>>>>> parent of 0f94b71... Test
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3469,19 +3696,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!65 &2041471772
 =======
 --- !u!65 &1487553770
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+--- !u!65 &1070925574
+>>>>>>> parent of 0f94b71... Test
 BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2041471770}
 =======
   m_GameObject: {fileID: 1487553767}
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+  m_GameObject: {fileID: 1070925572}
+>>>>>>> parent of 0f94b71... Test
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -3489,14 +3724,19 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!33 &2041471773
 =======
 --- !u!33 &1487553771
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+--- !u!33 &1070925575
+>>>>>>> parent of 0f94b71... Test
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 2041471770}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
@@ -3506,10 +3746,16 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1487553772
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
+=======
+  m_GameObject: {fileID: 1070925572}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1070925576
+>>>>>>> parent of 0f94b71... Test
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
@@ -3531,6 +3777,14 @@ Transform:
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
 =======
   m_Father: {fileID: 0}
+=======
+  m_GameObject: {fileID: 1070925572}
+  m_LocalRotation: {x: 0, y: 0, z: 0.17364816, w: 0.9848078}
+  m_LocalPosition: {x: -9.61, y: 12.8, z: 0.56}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> parent of 0f94b71... Test
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20}
 --- !u!54 &1070925577
@@ -3549,6 +3803,9 @@ Rigidbody:
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1116068362
+<<<<<<< HEAD
+>>>>>>> parent of 0f94b71... Test
+=======
 >>>>>>> parent of 0f94b71... Test
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,6 +3813,7 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3573,13 +3831,18 @@ GameObject:
   - component: {fileID: 1749180009}
 >>>>>>> 871a6166e1e7935b5a0b127cb7eff34dc6aa3ca4
 =======
+=======
+>>>>>>> parent of 0f94b71... Test
   - component: {fileID: 1116068366}
   - component: {fileID: 1116068365}
   - component: {fileID: 1116068364}
   - component: {fileID: 1116068363}
+<<<<<<< HEAD
 >>>>>>> parent of 0f94b71... Test
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+>>>>>>> parent of 0f94b71... Test
   m_Layer: 0
   m_Name: BrickWall001
   m_TagString: Untagged
@@ -3587,6 +3850,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3600,10 +3864,14 @@ GameObject:
 =======
 --- !u!23 &2042403938
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!23 &1116068363
+>>>>>>> parent of 0f94b71... Test
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3617,6 +3885,9 @@ MeshRenderer:
 =======
   m_GameObject: {fileID: 2042403937}
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1116068362}
+>>>>>>> parent of 0f94b71... Test
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3646,6 +3917,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!65 &2042403939
 =======
 --- !u!65 &1749180010
@@ -3656,10 +3928,14 @@ MeshRenderer:
 =======
 --- !u!65 &2042403939
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!65 &1116068364
+>>>>>>> parent of 0f94b71... Test
 BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3673,12 +3949,16 @@ BoxCollider:
 =======
   m_GameObject: {fileID: 2042403937}
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1116068362}
+>>>>>>> parent of 0f94b71... Test
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3692,10 +3972,14 @@ BoxCollider:
 =======
 --- !u!33 &2042403940
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!33 &1116068365
+>>>>>>> parent of 0f94b71... Test
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3717,10 +4001,16 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &2042403941
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1116068362}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1116068366
+>>>>>>> parent of 0f94b71... Test
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3846,12 +4136,24 @@ Animator:
 >>>>>>> parent of 0f94b71... Test
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1116068362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.63, y: 7, z: -0.5}
+  m_LocalScale: {x: 0.25, y: 10, z: 20}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1713841380
+>>>>>>> parent of 0f94b71... Test
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3882,11 +4184,20 @@ GameObject:
 >>>>>>> parent of 0f94b71... Test
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  - component: {fileID: 1713841384}
+  - component: {fileID: 1713841383}
+  - component: {fileID: 1713841382}
+  - component: {fileID: 1713841381}
+  m_Layer: 0
+  m_Name: BrickWall002
+>>>>>>> parent of 0f94b71... Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3900,10 +4211,14 @@ GameObject:
 =======
 --- !u!23 &1764044791
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!23 &1713841381
+>>>>>>> parent of 0f94b71... Test
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3917,6 +4232,9 @@ MeshRenderer:
 =======
   m_GameObject: {fileID: 1764044790}
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1713841380}
+>>>>>>> parent of 0f94b71... Test
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3946,6 +4264,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!65 &1764044792
 =======
 --- !u!65 &2041471772
@@ -3956,10 +4275,14 @@ MeshRenderer:
 =======
 --- !u!65 &1764044792
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!65 &1713841382
+>>>>>>> parent of 0f94b71... Test
 BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3973,12 +4296,16 @@ BoxCollider:
 =======
   m_GameObject: {fileID: 1764044790}
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1713841380}
+>>>>>>> parent of 0f94b71... Test
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3992,10 +4319,14 @@ BoxCollider:
 =======
 --- !u!33 &1764044793
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!33 &1713841383
+>>>>>>> parent of 0f94b71... Test
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4017,10 +4348,16 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1764044794
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1713841380}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1713841384
+>>>>>>> parent of 0f94b71... Test
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4061,12 +4398,24 @@ Transform:
 >>>>>>> parent of 0f94b71... Test
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1713841380}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.42, y: 7, z: 9.5}
+  m_LocalScale: {x: 0.25, y: 10, z: 30}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1749180008
+>>>>>>> parent of 0f94b71... Test
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4097,11 +4446,20 @@ GameObject:
 >>>>>>> parent of 0f94b71... Test
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  - component: {fileID: 1749180012}
+  - component: {fileID: 1749180011}
+  - component: {fileID: 1749180010}
+  - component: {fileID: 1749180009}
+  m_Layer: 0
+  m_Name: BrickWall010
+>>>>>>> parent of 0f94b71... Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4115,10 +4473,14 @@ GameObject:
 =======
 --- !u!23 &1856287436
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!23 &1749180009
+>>>>>>> parent of 0f94b71... Test
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4132,6 +4494,9 @@ MeshRenderer:
 =======
   m_GameObject: {fileID: 1856287435}
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1749180008}
+>>>>>>> parent of 0f94b71... Test
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4161,6 +4526,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!65 &1856287437
 =======
 --- !u!65 &2042403939
@@ -4171,10 +4537,14 @@ MeshRenderer:
 =======
 --- !u!65 &1856287437
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!65 &1749180010
+>>>>>>> parent of 0f94b71... Test
 BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4188,12 +4558,16 @@ BoxCollider:
 =======
   m_GameObject: {fileID: 1856287435}
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1749180008}
+>>>>>>> parent of 0f94b71... Test
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4207,10 +4581,14 @@ BoxCollider:
 =======
 --- !u!33 &1856287438
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+--- !u!33 &1749180011
+>>>>>>> parent of 0f94b71... Test
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4232,10 +4610,16 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1856287439
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_GameObject: {fileID: 1749180008}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1749180012
+>>>>>>> parent of 0f94b71... Test
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4246,16 +4630,22 @@ Transform:
   m_LocalPosition: {x: -15.38, y: 9.5, z: 19.5}
   m_LocalScale: {x: 0.25, y: 5, z: 20}
 =======
+=======
+>>>>>>> parent of 0f94b71... Test
   m_GameObject: {fileID: 1749180008}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.42, y: 7, z: -18}
   m_LocalScale: {x: 0.25, y: 10, z: 30}
+<<<<<<< HEAD
+>>>>>>> parent of 0f94b71... Test
+=======
 >>>>>>> parent of 0f94b71... Test
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2042403937
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   m_GameObject: {fileID: 2042403937}
@@ -4286,6 +4676,8 @@ Transform:
 >>>>>>> parent of 0f94b71... Test
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+>>>>>>> parent of 0f94b71... Test
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -4369,6 +4761,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
   m_RootOrder: 10
@@ -4388,6 +4781,10 @@ Transform:
 >>>>>>> parent of 0f94b71... Test
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 0f94b71... Test
 --- !u!1 &2101222870
 GameObject:
   m_ObjectHideFlags: 0
@@ -4471,6 +4868,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
   m_Father: {fileID: 0}
@@ -4490,4 +4888,8 @@ Transform:
 >>>>>>> parent of 0f94b71... Test
 =======
 >>>>>>> parent of 45f15ac... Merge branch 'master' of https://github.com/rickyno93/FPS_Game_Example
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+>>>>>>> parent of 0f94b71... Test
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
